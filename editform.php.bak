@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head>
+<title>UTN</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<link rel="stylesheet" type="text/css" href="estilo.css">
+<link rel="stylesheet" type="text/css" href="estilo2.css">
+</head>
+
+<body>
+<?
+	//include('coneccion.php'); 
+	include('class.form.php'); 
+	$array_edit_form = $_REQUEST;
+	$id_form=$array_edit_form['id'];
+	
+	
+	$formulario = new Form($id_form);
+
+	
+	echo '<div class="form-container">';
+	echo '<form name="formu">';		
+	echo '<label for="type">C&oacute;digo:&nbsp;</label><br>';
+	echo '<input type="text" name="codigo" name="" value="'.$formulario->get_codigo().'"></input><br>';
+	echo '<label for="type">Descripci&oacute;n:&nbsp;</label><br>';
+	echo '<input type="text" name="descripcion" name="" value="'.$formulario->get_descripcion().'"></input><br>';
+	echo '<label for="type">Estado:&nbsp;</label><br>';
+	echo '<input type="text" name="estado" name="" value="'.$formulario->get_estado().'"></input><br>';
+	echo '<label for="type">Fecha de inicio:&nbsp;</label><br>';	
+	echo '<input type="text" name="fecha_desde" name="" value="'.$formulario->get_fecha_desde().'"></input><br>';
+	echo '<label for="type">Fecha de fin:&nbsp;</label><br>';
+	echo '<input type="text" name="fecha_hasta" name="" value="'.$formulario->get_fecha_hasta().'"></input><br>';
+	echo '<input type="submit" value="Aceptar">';
+	
+	echo '</form>';
+	echo '</div>';
+
+
+?>
+
+</body>

@@ -1,0 +1,48 @@
+#Permiso;#Texto del menu;#Texto del submenu;#accion js;#imagen
+#perfil 0 -> menues en comun
+#perfil 1 -> menu solo para el alumno(login y ayuda)
+#perfil 2 -> menu para los admin  (todo)
+#perfil 3 -> menu para el tutor (login, instrumentos cargados y ayuda)
+0;Login
+0;Login;Datos personales;displayMessage('actualizarAlumno.php');common/imgs/new.gif
+0;Login;Logout;location.href="http://SERVER/aspirantes/index.php";common/imgs/close_dis.gif
+#
+2;Administrador
+2;Administrador;Formularios;document.getElementById('iframe_1').src="http://SERVER/aspirantes/formularios.php";common/imgs/paste.gif
+2;Administrador;Preguntas formularios;document.getElementById('iframe_1').src="http://SERVER/aspirantes/template_formularios_preguntas_respuestas.php/";common/imgs/new.gif
+2;Administrador;Asignacion de formularios;document.getElementById('iframe_1').src="http://SERVER/aspirantes/template_formularios_alumnos.php";common/imgs/new.gif
+2;Administrador;Alumnos;document.getElementById('iframe_1').src="http://SERVER/aspirantes/alumnos_cargar_nuevo.php";common/imgs/new.gif
+2;Administrador;Importar alumnos;document.getElementById('iframe_1').src="http://SERVER/aspirantes/tutorias_loader.php";common/imgs/new.gif
+2;Administrador;Actualizacion de estado;document.getElementById('iframe_1').src="http://SERVER/aspirantes/tutorias_estado.php";common/imgs/new.gif
+2;Administrador;Cambiar usuario;document.getElementById('cambiar_usuario').style.display='block';common/imgs/about.gif
+#
+#2;Reportes [nuevo]
+#2;Reportes [nuevo];Reporte Instrumentos [nuevo];document.getElementById('iframe_1').src="http://SERVER/aspirantes/reporte_instrumentos_0.php";common/imgs/about.gif
+#2;Reportes [nuevo];Evaluacion tutor [nuevo];document.getElementById('iframe_1').src="http://SERVER/aspirantes/tutor_percepcion0.php";common/imgs/about.gif
+#2;Reportes [nuevo];Reporte Tiempo [nuevo];document.getElementById('iframe_1').src="http://SERVER/aspirantes/reporte_tiempo2.php";common/imgs/about.gif
+#2;Reportes [nuevo];Solicitudes [nuevo];document.getElementById('iframe_1').src="http://SERVER/aspirantes/solicitudes.php";common/imgs/about.gif
+#
+2;Reportes
+#CORBI-- 2;Instrumentos cargados;Resumen reporte;document.getElementById('iframe_1').src="http://SERVER/aspirantes/reporte_instrumentos_orientacion_alumnos.php";common/imgs/about.gif
+2;Reportes;Reporte Instrumentos;document.getElementById('iframe_1').src="http://SERVER/aspirantes/reporte_instrumentos_test.php";common/imgs/about.gif
+2;Reportes;Evaluacion tutor;document.getElementById('iframe_1').src="http://SERVER/aspirantes/tutor_percepcion.php";common/imgs/about.gif
+2;Reportes;Reporte Tiempo;document.getElementById('iframe_1').src="http://SERVER/aspirantes/reporte_tiempo.php";common/imgs/about.gif
+2;Reportes;Solicitudes;document.getElementById('iframe_1').src="http://SERVER/aspirantes/pedidos.php";common/imgs/about.gif
+2;Reportes;Wiki;abrirWiki();common/imgs/about.gif
+#
+#3;Reportes [nuevo]
+#3;Reportes [nuevo];Reporte Instrumentos [nuevo];document.getElementById('iframe_1').src="http://SERVER/aspirantes/reporte_instrumentos_0.php";common/imgs/about.gif
+#3;Reportes [nuevo];Evaluacion tutor [nuevo];document.getElementById('iframe_1').src="http://SERVER/aspirantes/tutor_percepcion0.php";common/imgs/about.gif
+#3;Reportes [nuevo];Reporte Tiempo [nuevo];document.getElementById('iframe_1').src="http://SERVER/aspirantes/reporte_tiempo2.php";common/imgs/about.gif
+#3;Reportes [nuevo];Solicitudes [nuevo];document.getElementById('iframe_1').src="http://SERVER/aspirantes/solicitudes.php";common/imgs/about.gif
+#
+3;Reportes
+#CORBI-- 2;Instrumentos cargados;Resumen reporte;document.getElementById('iframe_1').src="http://SERVER/aspirantes/reporte_instrumentos_orientacion_alumnos.php";common/imgs/about.gif
+3;Reportes;Reporte Instrumentos;document.getElementById('iframe_1').src="http://SERVER/aspirantes/reporte_instrumentos_test.php";common/imgs/about.gif
+3;Reportes;Evaluacion tutor;document.getElementById('iframe_1').src="http://SERVER/aspirantes/tutor_percepcion.php";common/imgs/about.gif
+3;Reportes;Reporte Tiempo;document.getElementById('iframe_1').src="http://SERVER/aspirantes/reporte_tiempo.php";common/imgs/about.gif
+3;Reportes;Solicitudes;document.getElementById('iframe_1').src="http://SERVER/aspirantes/pedidos.php";common/imgs/about.gif
+3;Reportes;Wiki;abrirWiki();common/imgs/about.gif
+#
+0;Ayuda
+0;Ayuda;Reportar error;mostrar_div_mensajes();common/imgs/about.gif

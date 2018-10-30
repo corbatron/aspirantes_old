@@ -1,0 +1,42 @@
+#Permiso;#Texto del menu;#Texto del submenu;#accion js (valor-data-action.php);#imagen
+#perfil 0 -> menues en comun
+#perfil 1 -> menu solo para el alumno(login y ayuda)
+#perfil 2 -> menu para los admin  (todo)
+#perfil 3 -> menu para el tutor (login, instrumentos cargados y ayuda)
+0;Login
+0;Login;Cambio de clave; data-toggle="modal" data-target="#datosPersonalesModal"; glyphicon glyphicon-user
+0;Login;Logout;data-action="logout";glyphicon glyphicon-off
+#
+2;Formularios
+2;Formularios;Modificar;data-action="formulariosResponsive";glyphicon glyphicon-list-alt
+2;Formularios;Preguntas-formularios;data-action="template_formularios_preguntas_respuestas";glyphicon glyphicon-th-list
+#
+2;Alumnos
+2;Alumnos;Modificar;data-action="alumnosCargar";glyphicon glyphicon-user
+2;Alumnos;Importar;data-action="tutorias_loader"; glyphicon glyphicon-cloud-upload
+2;Alumnos;Actualizar estado;data-action="tutorias_estado"; glyphicon glyphicon-cloud-upload
+2;Alumnos;Asignar formularios;data-action="asignarFormularios"; glyphicon glyphicon-transfer
+2;Alumnos;Asignar tutores autom.;data-action="asignarTutores"; glyphicon glyphicon-thumbs-up
+#
+2;Tutores
+2;Tutores;Crear tutor;data-toggle="modal" data-target="#crearTutorModal";glyphicon glyphicon-user
+#
+2;Materias
+2;Materias;Definir fechas;data-toggle="modal" data-target="#sysacadFecha";glyphicon glyphicon-calendar
+#
+2;Reportes
+2;Reportes;Instrumentos;data-action="reporte_instrumentos_0";glyphicon glyphicon-file
+2;Reportes;Evaluacion tutor;data-action="tutor_percepcion0";glyphicon glyphicon-text-width
+2;Reportes;Tiempo;data-action="reporte_tiempo2";glyphicon glyphicon-time
+2;Reportes;Solicitudes;data-action="solicitudes";glyphicon glyphicon-fire
+2;Reportes;Cambiar Usuario; data-toggle="modal" data-target="#cambiarUsuarioModal";glyphicon glyphicon-tags
+#
+3;Reportes
+3;Reportes;Instrumentos;data-action="reporte_instrumentos_0";glyphicon glyphicon-file
+3;Reportes;Evaluacion tutor;data-action="tutor_percepcion0";glyphicon glyphicon-text-width
+3;Reportes;Tiempo;data-action="reporte_tiempo2";glyphicon glyphicon-time
+3;Reportes;Solicitudes;data-action="solicitudes";glyphicon glyphicon-fire
+3;Reportes;Cambiar Usuario; data-toggle="modal" data-target="#cambiarUsuarioModal";glyphicon glyphicon-tags
+#
+0;Ayuda
+0;Ayuda;Reportar error; data-toggle="modal" data-target="#bugModal";glyphicon glyphicon-fire

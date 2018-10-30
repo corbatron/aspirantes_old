@@ -1,0 +1,111 @@
+$(document).ready(function () {
+
+    /* On load focus username input login */
+    $('#username').focus();
+
+    /* Keys pressed event handlers */
+    $(document).keydown(function (key) {
+        // "Enter" = 13
+        if (key.keyCode == '13') {
+            if ($('#form-signin').is(":visible")) {
+                $('#btnLogOn').click();
+            } else if ($('#form-register').is(":visible")) {
+                $('#btnRegisterSend').click();
+            } else if ($('#form-forgot').is(":visible")) {
+                $('#btnForgotSend').click();
+            }
+        } else if (key.keyCode == '27') {
+            if ($('#form-register').is(":visible")) {
+                $('#btnRegisterCancel').click();
+            } else if ($('#form-forgot').is(":visible")) {
+                $('#btnForgotCancel').click();
+            }
+        }
+    });
+
+    $('#btnRegister').click(function () {
+        $('#form-signin').hide();
+        $('#form-forgot').hide();
+        $('#form-register').fadeIn(500);
+        $('#r-username').focus();
+
+        // clear inputs
+        $('#username').val("");
+        $('#password').val("");
+    });
+
+    $('#btnRegisterCancel').click(function () {
+        $('#form-register').hide();
+        $('#form-signin').fadeIn(500);
+        $('#username').focus();
+
+        // clear inputs
+        $('#r-username').val("");
+        $('#r-email').val("");
+        $('#r-password').val("");
+        $('#r-confirm').val("");
+    });
+
+    $('#btnForgot').click(function () {
+        $('#form-signin').hide();
+        $('#form-register').hide();
+        $('#form-forgot').fadeIn(500);
+        $('#rec-email').focus();
+
+        // clear inputs
+        $('#username').val("");
+        $('#password').val("");
+    });
+
+    $('#btnForgotCancel').click(function () {
+        $('#form-forgot').hide();
+        $('#form-signin').fadeIn(500);
+        $('#username').focus();
+
+        // clear inputs
+        $('#rec-email').val("");
+    });
+
+
+
+    $('#btnLogOn').click(function () {
+	 //if($('#username')[0].value == "" || $('#password')[0].value == ""){
+	//	alert('Campo de usuario o contrase\u00f1a no ingresados. Por favor ingreselos para poder continuar');
+	//	return -1;
+	// }
+
+
+	 $.ajax({
+         async:false,
+         cache:false,
+         dataType:"html",
+         type: 'POST',  
+         url: "loginUtils/loginCheck.php",
+         data: "username="+$('#username')[0].value+"&password="+$('#password')[0].value+"&anio="+$('#anio_ingreso').val(),
+         success:  function(respuesta){
+           if(respuesta == "KO")
+		$( '#modal-1' ).addClass( 'md-show' );
+	    else
+		//index_forms.php
+		window.location.replace("main.php");
+         },
+         beforeSend:function(){},
+         error:function(objXMLHttpRequest){}
+         });
+    });
+
+
+
+
+
+    $('#md-close').click(function() {
+	  $('#modal-1').removeClass( 'md-show' );
+    });
+
+
+
+
+
+});
+
+

@@ -1,0 +1,32 @@
+
+
+<form name="myForm" method="post" action="includes/veriflogin.php" enctype="multipart/form-data">
+
+	<table border="0">
+		<tr>
+			<td colspan="2"><img src="../images/logoutn.png">&nbsp;&nbsp;<b>Sistema Integral de Tutorias </b></td>
+		</tr>
+		<tr>
+			<td><label for="firstname">Usuario:</label></td>
+			<td><input type="text" name="firstname" id="firstname"></td>
+		</tr>
+		<tr>
+			<td><label for="lastname">Contrase&ntilde;a:</label></td>
+			<td><input type="password" name="lastname" id="lastname"></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td align="center">
+			<input type="submit" value="Validar"></td>
+		</tr>
+	</table>
+	<script type="text/javascript">
+	document.myForm.firstname.focus();
+	
+	function mostrar()
+	{
+		
+		alert(document.getElementById('lastname').value);
+		
+	}
+	</script>

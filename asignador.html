@@ -1,0 +1,40 @@
+<table id='tabla'>
+<tr>
+  <td>Nombre</td>
+  <td>Valor</td>
+</tr>
+<tr>
+  <td>Nombre</td>
+  <td>Valor</td>
+</tr>
+<tr>
+  <td>Nombre</td>
+  <td>Valor</td>
+</tr>
+<tr>
+  <td>Nombre</td>
+  <td>Valor</td>
+</tr>
+</table>
+<script>
+$(document).ready(function() {
+
+var tutores = ["menem","cfk","macri"]
+cantidad = -1;
+$('#tabla tr').each(
+function(index){
+    $(this).children("td").each(function (index2) 
+            {
+            	if(index2==1){
+                cantidad = cantidad + 1;
+              	$(this).text(tutores[cantidad]);
+                if(cantidad==tutores.length-1){
+                   cantidad = -1
+                }
+              }
+            });
+}
+);
+
+});
+</script>

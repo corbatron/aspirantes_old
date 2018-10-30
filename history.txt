@@ -1,0 +1,500 @@
+   31  echo del pendrive a la virtual
+   32  echo del pendrive a la virtual
+   33  echo del pendrive a la virtual
+   34  echo del pendrive a la virtual
+   35  echo del pendrive a la virtual
+   36  echo del pendrive a la virtual
+   37  cd /var/www
+   38  ls
+   39  cd planta
+   40  ls
+   41  ls common/
+   42  ls common/config/
+   43  echo aca estoy
+   44  pwed
+   45  pwd
+   46  yii migrate
+   47  ./yii migrate
+   48  chmod +x yii
+   49  ./yii migrate
+   50  ls
+   51  chmod +w backend/runtime/
+   52  chmod +w frontend/runtime/
+   53  chmod +W frontend/runtime/
+   54  clear
+   55  chown --help
+   56  chown -R www-data:www-data /var/www/planta/
+   57  grep -r yii2-app backend/*
+   58  grep -lir yii2-app backend/*
+   59  grep -lir yii2-app frontend/*
+   60  grep -lir "yii2-app" backend/*
+   61  grep -lir "yii2-app" *
+   62  grep -lir "components" *
+   63  chown -R www-data:www-data /var/www/planta/
+   64  chown -R www-data:www-data /var/www/planta/
+   65  chown -R www-data:www-data /var/www/planta/
+   66  cat /var/www/planta/vendor/dmstr/yii2-adminlte-asset/example-views/yiisoft/yii2-app/layouts/main-login.php
+   67  chown -R www-data:www-data /var/www/planta/
+   68  chown -R www-data:www-data /var/www/planta/
+   69  grep -lir "register($this);" *
+   70  chown -R www-data:www-data /var/www/planta/
+   71  tail -f /var/log/postgresql/postgresql-8.4-main.log
+   72  tail -f /var/log/postgresql/postgresql-8.4-main.log
+   73  ls
+   74  tail -f /var/log/apache2/error.log
+   75  cd /var/www/
+   76  ls
+   77  cd planta/
+   78  ls
+   79  cd backend/
+   80  ls
+   81  cd models/
+   82  ls
+   83  cd ..
+   84  ls
+   85  cd views/
+   86  ls
+   87  cd ..
+   88  ls
+   89  cd models/
+   90  ls
+   91  cd ..
+   92  ls
+   93  cd controllers/
+   94  ls
+   95  cd ..
+   96  ls models/
+   97  cd models/
+   98  ls
+   99  cd ..
+  100  ls
+  101  cd web/
+  102  ls
+  103  cd app/
+  104  ls
+  105  cd views/
+  106  ls
+  107  cd ..
+  108  cd views/
+  109  ls
+  110  cd Especialidades/
+  111  ls
+  112  cd ..
+  113  ls
+  114  rm Especialidades/
+  115  rm -rf Especialidades/
+  116  cd ..
+  117  ls
+  118  cd ..
+  119  ls
+  120  cd ..
+  121  ls
+  122  cd models/
+  123  ls
+  124  nano Especialidades.php 
+  125  mv Especialidades.php Especialidadesold.php
+  126  ls
+  127  mv Especialidadesold.php Especialidades.php
+  128  ls
+  129  ls
+  130  cd ..
+  131  cd..
+  132  ls
+  133  cd ..
+  134  grep .lir 'Materias' *
+  135  grep -lir 'Materias' *
+  136  nano backend/views/layouts/left.php
+  137  ls
+  138  cd backend/web/
+  139  ls
+  140  nano index
+  141  nano index.php
+  142  nano index.php
+  143  nano index.php
+  144  grep -lir 'user2-160x160.jpg' *
+  145  cd ..
+  146  ls
+  147  cd ..
+  148  ls
+  149  cd yii 
+  150  ls
+  151  cd environments/
+  152  ls
+  153  cd ..
+  154  ls
+  155  grep "Showing" /var/www/planta/vendor/yiisoft/yii2/web/*
+  156  grep "Showing" /var/www/planta/vendor/yiisoft/yii2/data/*
+  157  grep -r "Showing" /var/www/planta/vendor/yiisoft/yii2/*
+  158  grep -r --color "Showing" /var/www/planta/vendor/yiisoft/yii2/*
+  159  pwd
+  160  chown -R www-data:www-data /var/www/aspirantes
+  161  tail -f /var/log/apache2/error.log
+  162  grep Reserve /var/www/planta/backend/views/layouts/*.php
+  163  cd /var/www/planta/backend/views
+  164  grep -r --color Search *
+  165  grep -r --color "placeholder=\"Search" *
+  166  grep -r --color "'Search" *
+  167  cp docentes /tmp/
+  168  cp docentes/_search.php /tmp/
+  169  cd /tmp/
+  170  find ./ -type f -exec sed -i -e 's/"\'Search"/"\'Buscar"/g' {} \;
+  171  find .
+  172  find . -type f -exec sed -i -e 's/"\'Search"/"\'Buscar"/g' {} \;
+  173  ;
+  174  find . -type f
+  175  find ./ -type f -exec sed -i -e 's/"\'Search"/"\'Buscar"/g' {}
+  176  clear
+  177  sed
+  178  man sed
+  179  find ./ -type f -exec sed -i '' 's/"\'Search"/"\'Buscar"/g' *.php {} \;
+  180  find . -type f -exec sed -i '' 's/"\'Search"/"\'Buscar"/g' *.php {} \;
+  181  find . -type f -exec sed -i '' 's/"/'Search"/"/'Buscar"/g' *.php {} \;
+  182  find . -type f -exec sed -i '' 's//"/'Search/"//"/'Buscar/"/g' *.php {} \;
+  183  find . -type f -exec sed -i '' 's/"/'Search"/"/'Buscar"/g' *.php {} \;
+  184  history 
+  185   grep -r "'Search" *  ./ | xargs sed -i 's//"/'Search/"//"/'Buscar/"/g'
+  186   grep -r "'Search" *  ./ | xargs sed -i 's/"/'Search"/"/'Buscar"/g'
+  187   grep -r "'Search" *  ./ | xargs sed -i 's/"'Search"/"'Buscar"/g'
+  188   grep -r "'Search" *  ./ | xargs sed -i 's/"'Search"/"'Buscar"/g'
+  189   grep -r "'Search" *  ./ | xargs sed -i 's/"/'Search"/"/'Buscar"/g'
+  190   grep -r "'Search" *  ./ | xargs sed -i 's//"/'Search/"//"/'Buscar/"/g'
+  191   grep -r "'Search" *  ./ | xargs sed -i 's//"/'Search/"///"/'Buscar/"/g'
+  192   grep -r "'Search" *  ./ | xargs sed -i 's//"/'Search//"/'Buscar/g'
+  193   grep -r "'Search" *  ./ 
+  194   grep -r "'Search" *  ./ | xargs sed -i 's//'Search/'//'Buscar/'/g'
+  195   grep -r "'Search" *  ./ | xargs sed -i 's//'Search//'Buscar/g'
+  196   grep -r "'Search" *  ./ | xargs sed -i 's/'Search/'Buscar/g'
+  197   grep -r "'Search" *  ./ | xargs sed -i 's/\'Search/\'Buscar/g'
+  198   grep -r "'Search" *  ./ | xargs sed -i "s/'Search'/'Buscar'/g"
+  199   grep -r "'Search" *  ./ 
+  200   grep -r "'Search" *  ./ | xargs sed -i "s/'Search'//'Buscar'/g"
+  201   grep -r "'Search" *  ./ | xargs sed -i "s/'Search/'Buscar/g"
+  202   grep -r "'Search" *  ./ | xargs sed -i "s/\x27sSearch\x27s/\x27sBuscar\x27s/g"
+  203  ls -ltr
+  204  chmod +w _search.php 
+  205   grep -r "'Search" *  ./ | xargs sed -i "s/\x27sSearch\x27s/\x27sBuscar\x27s/g"
+  206  ls -ltr
+  207  chmod +w+W _search.php 
+  208  chmod 777  _search.php 
+  209  ls -ltr
+  210   grep -r "'Search" *  ./ | xargs sed -i "s/\x27sSearch\x27s/\x27sBuscar\x27s/g"
+  211   grep -r "'Search" *  ./ | xargs sed -i "s/\x27sSearchs/\x27sBuscar/g"
+  212   grep -r "'Search" *  ./ | xargs sed -i -e "s/\x27sSearchs/\x27sBuscar/g"
+  213   grep -r "'Search" *  ./ | xargs sed -i "s/\x27sSearch/\x27sBuscar/g"
+  214  sed 's/ones/two'\''s/' <<< 'ones thing'
+  215   grep -r "'Search" *  ./ | xargs sed -i "s/'\''Search'\''/'\''Buscar'\''/g"
+  216   grep -r "'Search" *  ./ | xargs sed -i "s/\x27sSearch/\x27sBuscar/g"
+  217  xargs
+  218   grep -r "'Search" *  ./ | xargs sed -i "s/'\Search/'\Buscar/g"
+  219   grep -r "'Search" *  ./ | xargs sed -i "s/'\Search/\\'\Buscar/g"
+  220   grep -r "'Search" *  ./ | xargs sed -i "s/\\'\Search/\\'\Buscar/g"
+  221   grep -r "'Search" *  ./ | sed -i  "s/\'Search\'/\'Buscar\'s/" 
+  222   grep -r "'Search" * 
+  223   grep -r "'Search" *  ./ | sed -i  "s/\'Search\'/\'Buscar\'s/" 
+  224   grep -r "'Search" *  ./ | sed -i  "s/\'Search\'/\'Buscar\'s/g" 
+  225   grep -r "'Search" *  ./ | sed -i  "s/\'Search\'/\'Buscar\'s/g" 
+  226   grep -r "'Search" *  ./ 
+  227   grep -rl "'Search" *  ./ | sed -i  "s/\'Search\'/\'Buscar\'s/g" 
+  228   grep -rl "'Search" *  ./ 
+  229   grep -rl "'Search" *  .
+  230   grep -rl "'Search" *  ./ | sed -i  "s/\'Search\'/\'Buscar\'s/g" 
+  231   find /path -type f -exec sed -i  "s/\'Search\'/\'Buscar\'s/g" {} \;
+  232   find . -type f -exec sed -i  "s/\'Search\'/\'Buscar\'s/g" {} \;
+  233   grep -rl "'Search" *  .
+  234   grep -rl "buscar"
+  235   grep -rl "buscar" *
+  236   grep -rli "buscar" *
+  237   find * -type f -exec sed -i  "s/\'Search\'/\'Buscar\'s/g" {} \;
+  238  ls
+  239  cat _search.php 
+  240   find * -type f -exec sed -i  "s/\'Search/\'Buscar/g" {} \;
+  241   grep -rli "buscar" *
+  242   grep -rli "search" *
+  243  find * -type f
+  244   find * -type f -exec sed -i  "s/Search/Buscar/g" {} \;
+  245   grep -rli "buscar" *
+  246   find * -type f -exec sed -i  "s/Buscar/Search/g" {} \;
+  247  grep Search *
+  248   find * -type f -exec sed -i  "s/'Search/\'Buscar/g" {} \;
+  249  grep Search *
+  250  cat _search.php 
+  251  cd /var/www/planta/backend/views
+  252  grep -r "'Search" *
+  253   find * -type f -exec sed -i  "s/'Search/\'Buscar/g" {} \;
+  254  grep -r "'Search" *
+  255  grep -r "'Buscar" *
+  256  grep -r "'Reset" *
+  257   find * -type f -exec sed -i  "s/'Reset/\'Borrar/g" {} \;
+  258  grep "'Create" *
+  259  grep -r "'Create" *
+  260  grep -r "'Create " *
+  261  grep --color -r "'Create " *
+  262   find * -type f -exec sed -i  "s/'Create /\'Crear /g" {} \;
+  263  grep --color -r "'Crear " *
+  264  grep --color -r "'Showing " *
+  265  grep --color -r "'Update" *
+  266  grep --color -r "'Update" *
+  267  grep --color -r "'Create" *
+  268  grep -r "Update" *
+  269  grep -r --color "Update" *
+  270  cd ../views/ ../views_bkp/
+  271  cd ../views/ ../views_bkp/
+  272  cp ../views/ ../views_bkp/
+  273  cp ../views/* /tmp/
+  274  cp -r -f ../views/ ../views_bkp/
+  275    find * -type f -exec sed -i  "s/'Update/\'Actualizar/g" {} \;
+  276  grep -r "'Delete" *
+  277  grep -r --color "'Delete" *
+  278    find * -type f -exec sed -i  "s/'Delete/\'Eliminar/g" {} \;
+  279  grep -r --color "'Create" *
+  280    find * -type f -exec sed -i  "s/'Create/\'Crear/g" {} \;
+  281  cd /var/www/
+  282  ls
+  283  cd planta/
+  284  ls
+  285  cd tests/
+  286  ls
+  287  cd ..
+  288  ls
+  289  backend/
+  290  ls
+  291  cd backend/
+  292  ls
+  293  cd views/
+  294  ls
+  295  cd layouts/
+  296  ls
+  297  cd ..
+  298  cd ..
+  299  cd ..
+  300  grep -lir 'Especialidades' *
+  301  nano backend/views/layouts/left.php
+  302  nano backend/views/layouts/left.php
+  303  nano backend/views/layouts/left.php
+  304  nano backend/views/layouts/left.php
+  305  nano backend/views/layouts/left.php
+  306  nano backend/views/layouts/left.php
+  307  cd /home/atarrio/
+  308  ls
+  309  cd backupscron2012/
+  310  ls
+  311  cd ..
+  312  ls
+  313  cd scripts/
+  314  ls
+  315  ls -la
+  316  cd backup
+  317  nano backup
+  318  ls
+  319  nano backup
+  320  cd  /disk/backups/
+  321  ls
+  322  ls -la
+  323  cd ..
+  324  cd ..
+  325  ls
+  326  cd /var/www/planta/vendor/almasaeed2010/adminlte/plugins/datatables/
+  327  grep showing *
+  328  grep howing *
+  329  grep howing *
+  330  view jquery.dataTables.min.js
+  331  apt-get install vim
+  332  vim jquery.dataTables.min.js
+  333  history
+  334  cd /var/www
+  335  cd planta
+  336  cd backend/views
+  337  ls
+  338  history 
+  339  cd ..
+  340  cd ..
+  341  ls -l
+  342  cd ..
+  343  ls -ltr
+  344  ls -ltr
+  345  ls -ltr
+  346  ls -ltr
+  347  ls -ltr
+  348  ls -ltr
+  349  ls -ltr
+  350  ls -ltr
+  351  ls -ltr
+  352  ls -ltr
+  353  ls -ltr
+  354  ls -ltr
+  355  ls -ltr
+  356  ls -ltr
+  357  ls -ltr
+  358  ls -ltr
+  359  ls -ltr
+  360  ls -ltrh
+  361  cd /mnt
+  362  lls
+  363  l
+  364  l
+  365  ls
+  366  cd ..
+  367  ls
+  368  cd /disk/
+  369  ls
+  370  cd backups/
+  371  ls
+  372  cp /var/www/archive.tgz /disk/backups/
+  373  ls -ltr
+  374  history
+  375  more history
+  376  ls
+  377  cd /root
+  378  ks
+  379  ls
+  380  more .history
+  381  cd /var/www/aspirantes|
+  382  cd /var/www/aspirantes
+  383  grep -ic tutorias_materias_aprobadas *.php
+  384  grep -ic tutorias_materias_aprobadas *
+  385  grep -lir tutorias_materias_aprobadas *
+  386  grep -li --color tutorias_materias_aprobadas *
+  387  grep -i --color tutorias_materias_aprobadas *
+  388  history 
+  389  cd cd /var/www/planta/backend/views
+  390  cd /var/www/planta/backend/views
+  391  find * -type f -exec sed -i  "s/'Search/\'Buscar/g" {} \;
+  392  find * -type f -exec sed -i  "s/'Reset/\'Borrar/g" {} \;
+  393  find * -type f -exec sed -i  "s/'Create /\'Crear /g" {} \;
+  394  find * -type f -exec sed -i  "s/'Update/\'Actualizar/g" {} \;
+  395  find * -type f -exec sed -i  "s/'Delete/\'Eliminar/g" {} \;
+  396  find | xargs grep CORBI
+  397  find | xargs grep CORBI
+  398  cd ..
+  399  cd ..
+  400  ls
+  401  cd backend/
+  402  ls
+  403  top
+  404  /var/www/aspirantes
+  405  cd /var/www/aspirantes
+  406  ./script_acentos.sh tiempo_5.php
+  407  sed -e
+  408  ./script_acentos.sh tiempo_5.php 
+  409  sed -e 's/Ã¡/\&aacute;/g' tiempo_5.php
+  410  sed -e 's/Ã¡/\&aacute;/g' tiempo_5.php.bak 
+  411  ./script_acentos.sh tiempo_5.php.bak 
+  412  ./script_acentos.sh tiempo_5.php.bak 
+  413          cat tiempo5.php.bak | sed -e 's/Ã¡/\&aacute;/g' -e 's/Ã©/\&eacute;/g' -e 's/Ã­/\&iacute;/g' -e 's/Ã³/\&oacute;/g' -e 's/Ãº/\&uacute;/g' -e 's/Ã±/\&ntilde;/g' -e 's/Ã/\&Aacute;/g' -e 's/Ã‰/\&Eacute;/g' -e 's/Ã/\&Iacute;/g' -e 's/Ã“/\&Oacute;/g' -e 's/Ãš/\&Uacute;/g' -e 's/Ã‘/\&Ntilde;/g' -e 's/Â©/\&copy;/g' -e 's/Â¡/\&iexcl;/g' -e 's/Â§/\&sect;/g' -e 's/Âª/\&ordf;/g' -e 's/Â«/\&laquo;/g' -e 's/Â®/\&reg;/g'-e 's/Â±/\&plusmn;/g' -e 's/Â²/\&sup2;/g' -e 's/Â³/\&sup3;/g' -e 's/Â¶/\&para;/g' -e 's/Âº/\&ordm;/g' -e 's/Â»/\&raquo;/g' -e 's/Â¿/\&iquest;/g' -e 's/Ã†/\&AElig;/g' -e 's/Ã‡/\&Ccedil;/g' -e 's/Ã¦/\&aelig;/g' -e 's/Ã§/\&ccedil;/g' -e 's/Ãœ/\&Uuml;/g' -e 's/Ã¼/\&uuml;/g' > tiempo5.nuevo
+  414  ./script_acentos.sh tiempo_5.php.bak 
+  415  cat tiempo_5.php.bak
+  416  cat tiempo_5.php
+  417  ls -ltr
+  418  rm tiempo5.nuevo 
+  419  cp tiempo_5.php tiempo_5test.php
+  420  ls -ltr
+  421  ./script_acentos.sh tiempo_5test.php 
+  422  ls -ltr
+  423  vi script_acentos.sh 
+  424  cat script_acentos.php
+  425  rm script_acentos.php 
+  426  vi script_acentos.sh 
+  427  ls -lt
+  428  -s -ltr
+  429  ls -ltr
+  430  rm 1
+  431  mv tiempo_5.php.bak.bak tiempo_5test.php
+  432  ls -ltr
+  433  ./script_acentos.sh tiempo_5test.php 
+  434  vi script_acentos.sh 
+  435  ps fax
+  436  /etc/init.d/postgresql stop
+  437  /etc/init.d/postgresql start
+  438  ps fax
+  439  ps fax
+  440  cd /var/www/aspirantes
+  441  ls
+  442  ls -ltr
+  443  ./script_acentos.sh tiempo_5test.php.bak 
+  444  ./script_acentos.sh tiempo_5test.php.bak 
+  445  ls -ltr
+  446  cp tiempo_5.php tiempo_5test.php
+  447  ./script_acentos.sh tiempo_5test.php
+  448  sed
+  449  ps fax
+  450  mem
+  451  df
+  452  df -h
+  453  top
+  454  cd /var/www/
+  455  ls
+  456  cd aspirantes
+  457  ls
+  458  grep -lir 'tutorias_materias_aprobadas' *
+  459  grep -lir 'tutorias_materias_aprobadas' *.php
+  460  clear
+  461  grep -lir 'tutorias_materias_aprobadas' *.php
+  462  cd ..
+  463  ls
+  464  cd ,,
+  465  cd ..
+  466  ls
+  467  su cron
+  468  ls
+  469  cd /tmp/
+  470  ls
+  471  nano backup_cron.sh
+  472  chmod 755 backup_cron.sh 
+  473  ls
+  474  ./backup_cron.sh 
+  475  cd /home/atarrio/
+  476  ls
+  477  cat fuentes.txt 
+  478  cd /tmp/
+  479  ls
+  480  nano backup_cron.sh 
+  481  ./backup_cron.sh 
+  482  ls
+  483  cat fuentes.txt 
+  484  cd /home/atarrio/
+  485  ls
+  486  nano fuentes.txt 
+  487  cd /tmp/
+  488  ls
+  489  nano backup_cron.sh 
+  490  ./backup_cron.sh 
+  491  cd /var/www/aspirantes
+  492  ls
+  493  grep -lir 'tutorias_materias_aprobadas' *.php
+  494  clear
+  495  grep -lir 'tutorias_materias_aprobadas' *.php
+  496  nano tiempo_5.php
+  497  nano reporte_ppc.php 
+  498  nano class.drawingform.php 
+  499  cd         cat tiempo5.php | sed -e 's/á/\&aacute;/g' -e 's/é/\&eacute;/g' -e 's/í/\&iacute;/g' -e 's/ó/\&oacute;/g' -e 's/ú/\&uacute;/g' -e 's/ñ/\&ntilde;/g' -e 's/Á/\&Aacute;/g' -e 's/É/\&Eacute;/g' -e 's/Í/\&Iacute;/g' -e 's/Ó/\&Oacute;/g' -e 's/Ú/\&Uacute;/g' -e 's/Ñ/\&Ntilde;/g' > tiempo52.php
+  500  cd /var/www/aspirantes
+  501  cd         cat tiempo5.php | sed -e 's/á/\&aacute;/g' -e 's/é/\&eacute;/g' -e 's/í/\&iacute;/g' -e 's/ó/\&oacute;/g' -e 's/ú/\&uacute;/g' -e 's/ñ/\&ntilde;/g' -e 's/Á/\&Aacute;/g' -e 's/É/\&Eacute;/g' -e 's/Í/\&Iacute;/g' -e 's/Ó/\&Oacute;/g' -e 's/Ú/\&Uacute;/g' -e 's/Ñ/\&Ntilde;/g' > tiempo52.php
+  502  cd         cat tiempo5.php | sed -e 's/á/\&aacute;/g' > tiempo52.php
+  503  cd         cat tiempo_5.php | sed -e 's/á/\&aacute;/g' > tiempo52.php
+  504  cd         cat tiempo_5.php | sed -e 's/á/\&aacute;/g' > tiempo52.php
+  505  cd         cat tiempo_5.php 
+  506   cat tiempo_5.php 
+  507   cat tiempo_5.php | sed -e 's/á/\&aacute;/g' -e 's/é/\&eacute;/g' -e 's/í/\&iacute;/g' -e 's/ó/\&oacute;/g' -e 's/ú/\&uacute;/g' -e 's/ñ/\&ntilde;/g' -e 's/Á/\&Aacute;/g' -e 's/É/\&Eacute;/g' -e 's/Í/\&Iacute;/g' -e 's/Ó/\&Oacute;/g' -e 's/Ú/\&Uacute;/g' -e 's/Ñ/\&Ntilde;/g' > tiempo52.php
+  508   cat tiempo_5.php | sed -e 's/á/\&aacute;/g' > tiempo52.php
+  509   cat tiempo_5.php | sed -e 's/á/\&aacute;/g' > tiempo52.php
+  510   cat tiempo_5.php >  sed -e 's/á/\&aacute;/g' > tiempo52.php
+  511  man sed
+  512  ./script_acentos.sh tiempo_5.php
+  513      sed -e 's/á/\&aacute;/g' -e 's/é/\&eacute;/g' -e 's/í/\&iacute;/g' -e 's/ó/\&oacute;/g' -e 's/ú/\&uacute;/g' -e 's/ñ/\&ntilde;/g' -e 's/Á/\&Aacute;/g' -e 's/É/\&Eacute;/g' -e 's/Í/\&Iacute;/g' -e 's/Ó/\&Oacute;/g' -e 's/Ú/\&Uacute;/g' -e 's/Ñ/\&Ntilde;/g' tiempo_5.php
+  514      sed -e 's/á/\&aacute;/g' -e 's/é/\&eacute;/g' -e 's/í/\&iacute;/g' -e 's/ó/\&oacute;/g' -e 's/ú/\&uacute;/g' -e 's/ñ/\&ntilde;/g' -e 's/Á/\&Aacute;/g' -e 's/É/\&Eacute;/g' -e 's/Í/\&Iacute;/g' -e 's/Ó/\&Oacute;/g' -e 's/Ú/\&Uacute;/g' -e 's/Ñ/\&Ntilde;/g' tiempo_5.php
+  515  sed -e 's/á/\&aacute;/g' -e 's/é/\&eacute;/g' -e 's/í/\&iacute;/g' -e 's/ó/\&oacute;/g' -e 's/ú/\&uacute;/g' -e 's/ñ/\&ntilde;/g' -e 's/Á/\&Aacute;/g' -e 's/É/\&Eacute;/g' -e 's/Í/\&Iacute;/g' -e 's/Ó/\&Oacute;/g' -e 's/Ú/\&Uacute;/g' -e 's/Ñ/\&Ntilde;/g' tiempo_5.php
+  516  sed -e 's/á/\&aacute;/g' -e 's/é/\&eacute;/g' -e 's/í/\&iacute;/g' -e 's/ó/\&oacute;/g' -e 's/ú/\&uacute;/g' -e 's/ñ/\&ntilde;/g' -e 's/Á/\&Aacute;/g' -e 's/É/\&Eacute;/g' -e 's/Í/\&Iacute;/g' -e 's/Ó/\&Oacute;/g' -e 's/Ú/\&Uacute;/g' -e 's/Ñ/\&Ntilde;/g' tiempo_5.php
+  517  clear
+  518  view reporte_tiempo.php 
+  519  file --mime-encoding reporte_tiempo.php 
+  520  iconv -l
+  521  file --mime-encoding reporte_tiempo.php 
+  522  iconv -f iso-8859-1 -t utf-8 reporte_tiempo.php 
+  523  file --mime-encoding reporte_tiempo.php 
+  524  iconv -f iso-8859-1 -t utf-8 reporte_tiempo.php 
+  525  file --mime-encoding reporte_tiempo.php 
+  526  iconv -f iso-8859-1 -t utf-8 reporte_tiempo.php -o reporte_tiempo_ut8.php 
+  527  file --mime-encoding reporte_tiempo_ut8.php.php 
+  528  history 
+  529  history 
+  530  history > history.txt
